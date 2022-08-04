@@ -1,5 +1,3 @@
-# Basic authentication
-
 Basic authentication can be added to Mailpit by supplying it with a password file (eg: [Apache htpassword](https://httpd.apache.org/docs/current/programs/htpasswd.html).
 
 Mailpit currently supports multiple users & passwords in a single password file, and the passwords in the following formats:
