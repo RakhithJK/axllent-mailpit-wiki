@@ -8,6 +8,7 @@ docker run --rm \
 -p 1025:1025 \
 axllent/mailpit
 ```
+You need to ensure you map the correct ports (default Web UI on 8025 and SMTP on 1025). 
 
 ## Setting Mailpit options
 
