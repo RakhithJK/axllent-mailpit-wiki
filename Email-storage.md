@@ -1,4 +1,4 @@
-Mailpit stores incoming emails using [CloverDB](https://github.com/ostafen/clover), which uses [BadgerDB](https://github.com/dgraph-io/badger) under the hood.
+Mailpit stores incoming emails using [CloverDB](https://github.com/ostafen/clover), which uses [BadgerDB](https://github.com/dgraph-io/badger) under the hood. It supports two storage mechanisms, namely in-memory and persistent.
 
 ## In-memory storage (default)
 
