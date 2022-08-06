@@ -4,7 +4,7 @@ Mailpit stores incoming emails using [CloverDB](https://github.com/ostafen/clove
 
 Mailpit will by default store messages in memory. The advantage is a zero-configuration database that is ready to go. 
 
-There are however some downsides to this. For starters, when Mailpit is shut down or restarted, all stored emails are lost. Secondly, depending on how many emails you wish to store (and more importantly, how big they are), this uses the system memoty (RAM). Lastly, due to a (security?) [feature](https://github.com/dgraph-io/badger/issues/60) in BadgerDB, **in-memory storage is limited to a maximum of 1MB per email**.
+There are however some downsides to this. For starters, when Mailpit is shut down or restarted, all stored emails are lost. Secondly, depending on how many emails you wish to store (and more importantly, how big they are), this uses the system memory (RAM). Lastly, due to a (security?) [feature](https://github.com/dgraph-io/badger/issues/60) in BadgerDB, **in-memory storage is limited to a maximum of 1MB per email**.
 
 ## Persistent storage (on-disk file storage)
 
