@@ -10,5 +10,5 @@ Mailpit has several configuration options that can be set either via "flags" or 
 | `MP_UI_SSL_CERT`       | `--ui-ssl-cert`    |                | SSL certificate for web UI - requires ssl-key ([see wiki](HTTPS))                                               |
 | `MP_UI_SSL_KEY`        | `--ui-ssl-key`     |                | SSL key for web UI - requires ssl-cert ([see wiki](HTTPS))                                                      |
 | `MP_SMTP_AUTH_FILE`    | `--smtp-auth-file` |                | A password file for SMTP authentication ([see wiki](SMTP-with-STARTTLS-and-authentication)).                    |
-| `MP_SMTP_SSL_CERT`     | `--smtp-ssl-cert`  |                | SSL certificate for SMTP - requires smtp-ssl-key ([see wiki](SMTP-with-STARTTLS-and-authentication))            |
-| `MP_SMTP_SSL_KEY`      | `--smtp-ssl-key`   |                | SSL key for SMTP - requires smtp-ssl-cert ([see wiki](SMTP-with-STARTTLS-and-authentication))                   |
+| `MP_SMTP_SSL_CERT`     | `--smtp-ssl-cert`  |                | SSL certificate for SMTP STARTTLS - requires smtp-ssl-key ([see wiki](SMTP-with-STARTTLS-and-authentication))   |
+| `MP_SMTP_SSL_KEY`      | `--smtp-ssl-key`   |                | SSL key for SMTP STARTTLS - requires smtp-ssl-cert ([see wiki](SMTP-with-STARTTLS-and-authentication))          |
