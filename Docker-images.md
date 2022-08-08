@@ -12,4 +12,15 @@ You need to ensure you map the correct ports (default Web UI on 8025 and SMTP on
 
 ## Setting Mailpit options
 
-@TODO
+Refer to [the wiki](https://github.com/axllent/mailpit/wiki/Runtime-options) for a list of runtime options. Environment variables can be set using the `e` flag when starting your docker container, for instance:
+
+
+```
+docker run --rm \
+-e MP_DATA_DIR=/mailpit/data/ \
+-e MP_UI_AUTH_FILE=/mailpit/authfile \
+-e TZ=Europe/London \
+-p 8025:8025 \
+-p 1025:1025 \
+axllent/mailpit
+```
