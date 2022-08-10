@@ -10,6 +10,6 @@ There are however some downsides to this, depending on your requirements. For st
 
 ## Persistent storage (on-disk file storage)
 
-Mailpit allows you to provide a path to a directory for persistent database storage (`--data <path>`). This means that the physical email database is stored within this directory, and will survive restarts. There is effectively no restriction to email size, and it does not get stored in RAM.
+Mailpit allows you to provide a path to a directory for persistent database storage (`--data <path>`). This means that the physical email database is stored within this directory and will survive restarts. There is effectively no restriction to email size, and it does not get stored in RAM.
 
-Persistent storage does however can take up quite a considerable storage on your harddrive, specifically when Mailpit is running. BadgerDB creates a temporary additional 2GB file which it uses internally for logging, which is then removed when Mailpit is shut down. In addition to this, when emails are deleted from the database, previously-used space is not immediately reclaimed, but over time CloverDB will attempt to reclaim what it can. This is simply a design feature of BadgerDB, not a bug.
+Persistent storage does however can take up quite a considerable storage on your harddrive depending on how many emails are stored. When deleting emails, BadgerDB will eventually reclaim the space, but this can take time. This is simply a design feature of BadgerDB, not a bug.
