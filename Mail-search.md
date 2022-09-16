@@ -1,4 +1,4 @@
-The Mailpit search has a number of features that include filtering by `To`, `From`, `Subject`, read/unread status, attachment status, as well as excluding terms by prefixing the term with either a `-` or ` !`. Searches are not case sensitive.
+The Mailpit search has a number of features that include filtering by `To`, `From`, `Subject`, read/unread status, attachment status, as well as excluding terms by prefixing the term with either a `-` or ` !`. Searches are not case sensitive, and returns up to 200 results.
 
 Some examples include:
 
