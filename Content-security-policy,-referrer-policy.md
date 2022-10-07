@@ -13,3 +13,7 @@ The Mailpit UI also uses a `Referrer-Policy: no-referrer`, meaning that any remo
 ## Tracking images
 
 Tracking images (eg: in campaign emails) are not blocked. If you wish to block these then you will need to use a browser ad-blocker. All remote images are allowed.
+
+## External links
+
+External links from HTML emails will always open in a new window/tab automatically, regardless if there is or isn't a `href` `target` set in the HTML email.
