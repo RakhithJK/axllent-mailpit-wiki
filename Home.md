@@ -13,3 +13,4 @@ Topics:
 - [Basic authentication](https://github.com/axllent/mailpit/wiki/Basic-authentication) - require a login to access Mailpit's web UI
 - [Docker images](https://github.com/axllent/mailpit/wiki/Docker-images) - run Mailpit inside a docker container
 - [Building from source](https://github.com/axllent/mailpit/wiki/Building-from-source) - how to build Mailpit from source
+- [API](https://github.com/axllent/mailpit/wiki/API) - API documentation
