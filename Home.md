@@ -14,4 +14,4 @@ Topics:
 - [Docker images](https://github.com/axllent/mailpit/wiki/Docker-images) - run Mailpit inside a docker container
 - [Building from source](https://github.com/axllent/mailpit/wiki/Building-from-source) - how to build Mailpit from source
 - [API](https://github.com/axllent/mailpit/wiki/API) - API documentation
-- [Content security policy, referrer policy](https://github.com/axllent/mailpit/wiki/Content-security-policy,-referrer-policy) - some detail about the built-in security & privacy protection
+- [UI security policies](https://github.com/axllent/mailpit/wiki/UI-security-policies) - some detail about the built-in security & privacy protection
