@@ -16,4 +16,4 @@ Tracking images (eg: in campaign emails) are not blocked. If you wish to block t
 
 ## External links
 
-External links from HTML emails will always open in a new window/tab automatically, regardless if there is or isn't a `href` `target` set in the HTML email.
+External links from HTML emails will always open in a new window/tab automatically (`target="_blank"`), regardless if there is or isn't a `target` set in the anchor link.
