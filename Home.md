@@ -8,6 +8,7 @@ Topics:
 - [Runtime options](https://github.com/axllent/mailpit/wiki/Runtime-options) - command flags & environment variables
 - [Email storage](https://github.com/axllent/mailpit/wiki/Email-storage) - database storage in temporary or persistent database
 - [Mail search](https://github.com/axllent/mailpit/wiki/Mail-search) - searching mail using filters
+- [Tagging](https://github.com/axllent/mailpit/wiki/Tagging) - tagging messages
 - [HTTPS](https://github.com/axllent/mailpit/wiki/HTTPS) - add HTTPS for the web UI
 - [SMTP with STARTTLS and authentication](https://github.com/axllent/mailpit/wiki/SMTP-with-STARTTLS-and-authentication) - adding SMTP authentication
 - [Basic authentication](https://github.com/axllent/mailpit/wiki/Basic-authentication) - require a login to access Mailpit's web UI
