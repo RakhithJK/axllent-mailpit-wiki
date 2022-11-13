@@ -6,6 +6,7 @@ Mailpit has several configuration options that can be set either via "flags" or 
 | `MP_SMTP_BIND_ADDR` | `--smtp`           | `0.0.0.0:1025` | SMTP bind interface and port.                                                                                   |
 | `MP_UI_BIND_ADDR`   | `--listen`         | `0.0.0.0:8025` | HTTP bind interface and port for UI.                                                                            |
 | `MP_MAX_MESSAGES`   | `--max`            | `500`          | Maximum number of messages to store. Mailpit will periodically delete the oldest messages if greater than this. |
+| `MP_TAG`            | `--tag`            |                | Tag new messages matching filters ([see wiki](Tagging))                                                         |
 | `MP_WEBROOT`        | `--webroot`        | `/`            | Set the webroot for web UI & API                                                                                |
 | `MP_UI_AUTH_FILE`   | `--ui-auth-file`   |                | A password file for basic authentication ([see wiki](Basic-authentication)).                                    |
 | `MP_UI_SSL_CERT`    | `--ui-ssl-cert`    |                | SSL certificate for web UI - requires ssl-key ([see wiki](HTTPS))                                               |
