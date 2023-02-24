@@ -7,6 +7,8 @@ Some examples include:
 - `john -doe` - containing "john" but not containing "doe"
 - `to:"john doe"` - to "john doe"
 - `from:"john doe"` - from "john doe"
+- `cc:"john doe"` - cc "john doe"
+- `bcc:"john doe"` - bcc "john doe"
 - `subject:"john doe"` - "john doe" in the subject line
 - `is:read` - with read status
 - `is:unread` - with unread status
