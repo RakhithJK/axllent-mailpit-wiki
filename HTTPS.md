@@ -3,7 +3,7 @@ HTTPS can be enabled for the web UI simply by providing Mailpit with an SSL key 
 For this you require **both** the SSL certificate and private key set in the Mailpit flags or environment variables, for example:
 
 ```
-mailpit --ssl-cert path/to/cert.pem --ssl-key /path/to/privkey.pem 
+mailpit --ui-tls-cert /path/to/cert.pem --ui-tls-key /path/to/privkey.pem 
 ```
 
 Certificates can be both self-signed/generated or official certificates (if you have a valid domain name) obtained via sources like [Let's Encrypt](https://letsencrypt.org/).
