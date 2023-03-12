@@ -2,7 +2,7 @@ Mailpit supports SMTP encryption via STARTTLS, with optional authentication (`PL
 
 ## SMTP with STARTTLS
 
-To configure Mailpit to serve SMTP with STARTTLS, a SSL certificate and private key must be provided via either the command flags or environment when starting Mailpit, for example:
+To configure Mailpit to serve SMTP with STARTTLS, a TSL certificate and private key must be provided via either the command flags or environment when starting Mailpit, for example:
 
 ```
 mailpit --smtp-tls-cert /path/to/cert.pem --smtp-tls-key /path/to/privkey.pem 
