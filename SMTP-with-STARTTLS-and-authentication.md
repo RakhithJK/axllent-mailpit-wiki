@@ -26,7 +26,7 @@ openssl req -x509 -newkey rsa:4096 -nodes -keyout privkey.pem -out cert.pem -sha
 
 ## SMTP authentication
 
-To use SMTP authentication Mailpit must also be using STARTTLS (see above), or are using the `--smtp-auth-allow-insecure` flag. A file containing one or more usernames & password can be provided in exactly the same manner. This file syntax is exactly the same as a [basic authentication](Basic-authentication), so you could reuse one you already are using for the web UI, or create a unique one.
+To use SMTP authentication Mailpit must also be using STARTTLS (see above), or use the `--smtp-auth-allow-insecure` flag. A file containing one or more usernames & password can be provided in exactly the same manner. This file syntax is exactly the same as a [basic authentication](Basic-authentication), so you could reuse one you already are using for the web UI, or create a unique one.
 
 SMTP clients will then need to provide plain text / normal authentication details using a STARTTLS connection to send.
 
