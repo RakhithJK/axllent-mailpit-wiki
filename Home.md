@@ -16,3 +16,4 @@ Topics:
 - [Building from source](https://github.com/axllent/mailpit/wiki/Building-from-source) - how to build Mailpit from source
 - [API](https://github.com/axllent/mailpit/wiki/API) - API documentation
 - [UI security policies](https://github.com/axllent/mailpit/wiki/UI-security-policies) - some detail about the built-in security & privacy protection
+- [Healthcheck endpoints](https://github.com/axllent/mailpit/wiki/Healthcheck-endpoints) - healthcheck urls to monitor Mailpit status
