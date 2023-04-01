@@ -14,3 +14,5 @@
 | `MP_SMTP_TLS_CERT`            | `--smtp-tls-cert`            |                | TLS certificate for SMTP STARTTLS - requires --smtp-tls-key ([see wiki](SMTP-with-STARTTLS-and-authentication)) |
 | `MP_SMTP_TLS_KEY`             | `--smtp-tls-key`             |                | TLS key for SMTP STARTTLS - requires --smtp-tls-cert ([see wiki](SMTP-with-STARTTLS-and-authentication))        |
 | `MP_SMTP_AUTH_ALLOW_INSECURE` | `--smtp-auth-allow-insecure` |                | Enable insecure PLAIN & LOGIN authentication                                                                    |
+| `MP_QUIET`                    | `--quiet`                    |                | Quiet logging (errors only)                                                                                     |
+| `MP_VERBOSE`                  | `--verbose`                  |                | Verbose logging                                                                                                 |
