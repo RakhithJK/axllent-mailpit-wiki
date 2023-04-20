@@ -21,8 +21,9 @@ Refer to [the wiki](https://github.com/axllent/mailpit/wiki/Runtime-options) for
 docker run -d \
 --name=mailpit \
 --restart unless-stopped \
--e MP_DATA_FILE=/mailpit/mailpit.db \
--e MP_UI_AUTH_FILE=/mailpit/authfile \
+-v /path/to/mailpit-data:/data \
+-e MP_DATA_FILE=/data/mailpit.db \
+-e MP_UI_AUTH_FILE=/data/authfile \
 -e TZ=Europe/London \
 -p 8025:8025 \
 -p 1025:1025 \
