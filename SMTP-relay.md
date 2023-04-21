@@ -24,4 +24,4 @@ The `return-path` configuration option will add / overwrite the `Return-Path` fo
 
 ## Relaying all messages
 
-The `---smtp-relay-all` flag (or `MP_SMTP_RELAY_ALL` environment variable) can be set to automatically relay all incoming messages via the configured SMTP relay server. This means that Mailpit will act like a caching proxy server, and automatically pass on any incoming email to the configured SMTP server and store a local copy. The incoming email is not modified (unlike releasing via the web UI / API), and the message is simply passed through as-is. This option should be used with caution.
+The `--smtp-relay-all` flag (or `MP_SMTP_RELAY_ALL` environment variable) can be set to automatically relay all incoming messages via the configured SMTP relay server. This means that Mailpit will act like a caching proxy server, and automatically pass on any incoming email to the configured SMTP server and store a local copy. The incoming email is not modified (unlike releasing via the web UI / API), and the message is simply passed through as-is. This option should be used with caution.
