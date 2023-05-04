@@ -7,6 +7,7 @@ It acts as both an SMTP server, and provides a web interface to view all capture
 Topics:
 - [Troubleshooting](https://github.com/axllent/mailpit/wiki/Troubleshooting) - some troubleshooting tips
 - [Runtime options](https://github.com/axllent/mailpit/wiki/Runtime-options) - command flags & environment variables
+- [Sendmail / testing](https://github.com/axllent/mailpit/wiki/Sendmail---testing) - setting up sendmail & sending a test email
 - [Email storage](https://github.com/axllent/mailpit/wiki/Email-storage) - database storage in temporary or persistent database
 - [Mail search](https://github.com/axllent/mailpit/wiki/Mail-search) - searching mail using filters
 - [Tagging](https://github.com/axllent/mailpit/wiki/Tagging) - tagging messages
