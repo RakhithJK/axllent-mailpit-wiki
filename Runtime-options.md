@@ -8,7 +8,7 @@
 | `MP_WEBROOT`                  | `--webroot`                  | `/`            | Set the webroot for web UI & API                                                                                |
 | `MP_API_CORS`                 | `--api-cors`                 |                | Set API CORS Access-Control-Allow-Origin header ([see wiki](CORS))                                              |
 | `MP_USE_MESSAGE_DATES`        | `--use-message-dates`        |                | Use message dates as the received dates                                                                         |
-| `MP_IGNORE_DUPLICATE_IDS`     | `--ignore-duplicate-ids`     |                | Ignore duplicate messages (by Message-I)                                                                       |
+| `MP_IGNORE_DUPLICATE_IDS`     | `--ignore-duplicate-ids`     |                | Ignore duplicate messages (by Message-Id)                                                                       |
 | `MP_UI_AUTH_FILE`             | `--ui-auth-file`             |                | A password file for basic authentication ([see wiki](Basic-authentication)).                                    |
 | `MP_UI_TLS_CERT`              | `--ui-tls-cert`              |                | TLS certificate for web UI - requires --ui-tls-key ([see wiki](HTTPS))                                          |
 | `MP_UI_TLS_KEY`               | `--ui-tls-key`               |                | TLS key for web UI - requires --ui-tls-cert ([see wiki](HTTPS))                                                 |
