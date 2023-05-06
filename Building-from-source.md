@@ -1,4 +1,4 @@
-Go (>= version 1.8) and npm are required to compile mailpit from source.
+Go (>= version 1.8) and npm are required to compile Mailpit from source.
 
 ```
 git clone git@github.com:axllent/mailpit.git
