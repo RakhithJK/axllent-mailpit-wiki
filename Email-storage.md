@@ -1,6 +1,6 @@
 As of version 1.0.0, Mailpit stores all email data in a SQLite database. Older releases used to use a different format (BadgerDB), however there were several reasons to switch the backend databases which have been [documented here](https://github.com/axllent/mailpit/issues/10).
 
-Mailpit stores both an email summary and the raw email (compressed with zstd) in the database, has two storage options:
+Mailpit stores both an email summary and the raw email (compressed with zstd) in the database, and has two storage options:
 
 ## Temporary storage (default)
 
