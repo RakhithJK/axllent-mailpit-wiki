@@ -10,8 +10,6 @@ Mailpit currently supports multiple users & passwords in a single password file,
 - Plain text
 - Crypt with SHA-256 and SHA-512
 
-## Examples
-
 A plain text password file would look like:
 ```
 user1:password1
@@ -23,4 +21,15 @@ user1:$apr1$rja5hy8u$0DN2pENpLk1d4BqgPEho61
 user2:$apr1$asfohhn3$WXNtWWEnCMRFkI75J3exy1
 ```
 
-Save your file and start Mailpit using the `--auth-file <path-to-file>`. Note that if your password file is blank then all access is blocked. If you modify your password file while Mailpit is running, then you will need to restart Mailpit.
+The same password file can be used for both the web UI and SMTP. 
+
+Note that if your password file is blank then all access is blocked. If you modify your password file while Mailpit is running, then you will need to restart Mailpit.
+
+## Adding basic authentication to web UI
+
+Start Mailpit using the `--ui-auth-file <path-to-file>`.
+
+
+## Adding SMTP authentication
+
+Start Mailpit using the `--smtp-auth-file <path-to-file>`.
