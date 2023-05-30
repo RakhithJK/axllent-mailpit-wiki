@@ -5,7 +5,7 @@ If you are using a proxy server (for example Nginx or Apache) to access your Mai
 
 ## No browser notifications for new messages
 
-This feature is only possible when accessing your Mailpit web UI via HTTPS. This is not a restriction of Mailpit, this is a browser security feature. Please refer to the [HTTPS documentation](HTTPS)
+This feature is only possible when accessing your Mailpit web UI via HTTPS, or when accessing Mailpit via http://localhost:8025. This is not a restriction of Mailpit, this is a browser security feature. Please refer to the [HTTPS documentation](HTTPS)
 
 
 ## XMLHttpRequest blocked by CORS policy
