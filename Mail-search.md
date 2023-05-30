@@ -13,5 +13,6 @@ Some examples include:
 - `is:read` - with read status
 - `is:unread` - with unread status
 - `has:attachment` - containing an attachment
+- `message-id:12345.678910.JavaMail.j2ee@localhost` - search by Message-ID
 
-Searches can combine combinations, for instance `to:john subject:payment` or `from:john is:unread -has:attachment`.
+Searches can also be combined, for instance `to:john subject:payment` or `from:john is:unread -has:attachment`.
