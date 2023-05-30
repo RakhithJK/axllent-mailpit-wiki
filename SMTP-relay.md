@@ -5,16 +5,16 @@ To enable this feature, the configuration file (yaml syntax) must be provided to
 ## SMTP relay configuration
 
 ```yaml
-host:                <hostname-or-ip>      # required
-port:                <port>                # optional - default 25
-starttls:            <true|false>          # optional - default false
-allow-insecure:      <true|false>          # optional - default false
-auth:                <none|plain|cram-md5> # optional - default none
-username:            <username>            # required for both plain or cram-md5 auth
-password:            <password>            # required for plain auth
-secret:              <cram-secret>         # required for cram-md5 auth
-return-path:         <bounce-address>      # optional - overrides Return-Path for all released emails
-recipient-allowlist: '@example\.com$'      # optional - regex to limit allowed relay addresses or domains (see below)
+host:                <hostname-or-ip>            # required
+port:                <port>                      # optional - default 25
+starttls:            <true|false>                # optional - default false
+allow-insecure:      <true|false>                # optional - default false
+auth:                <none|plain|login|cram-md5> # optional - default none
+username:            <username>                  # required for plain, login and cram-md5 auth
+password:            <password>                  # required for plain & login auth
+secret:              <cram-secret>               # required for cram-md5 auth
+return-path:         <bounce-address>            # optional - overrides Return-Path for all released emails
+recipient-allowlist: '@example\.com$'            # optional - regex to limit allowed relay addresses or domains (see below)
 ```
 
 ### Notes
