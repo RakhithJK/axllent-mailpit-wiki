@@ -19,7 +19,10 @@ Messages can be automatically tagged via two methods - or via a `X-Tag` email he
 
 ### `X-Tag` header
 
-Mailpit will translate a comma-separated `X-Tag` message header into message tags, for example `X-Tag: Tag 1, Tag 2, hostname`
+Mailpit will translate a comma-separated `X-Tag` message header into message tags, for example: 
+```
+X-Tag: Tag 1, Tag 2, hostname
+```
 
 ### Word/phrase matches
 
