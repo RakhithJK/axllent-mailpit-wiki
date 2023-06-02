@@ -12,7 +12,7 @@ You can use `mailpit sendmail` as your sendmail configuration in `php.ini`:
 sendmail_path = /usr/local/bin/mailpit sendmail
 ```
 
-If your Mailpit server is not running on the default 1025 port or on another machine, then this can be set by adding `--smtp-addr <host>:<port>` to the sendmail command.
+If your Mailpit server is not running on the default 1025 port or on another machine, then this can be set by adding `-S <host>:<port>` to the sendmail command.
 
 
 ### Symlink to the mailpit binary
