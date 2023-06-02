@@ -1,6 +1,6 @@
 Mailpit allows you to tag messages with one or more tags. Message tags can be added, edited and deleted via the web UI when viewing a message, as well as automatically applied when receiving emails.
 
-Tags can then be seen in the web UI and filtered by in the search. Please note that viewing is limited to 200 results per tag.
+Tags can then be seen in the web UI and filtered by in the search. Please note that viewing tagged messages is limited to 200 results per tag.
 
 
 ## Allowed tag names
@@ -15,10 +15,18 @@ Filtering is simply a string match, meaning the filter you set must match someth
 
 ## Automatically tagging messages
 
+Messages can be automatically tagged via two methods - or via a `X-Tag` email header, or via basic word/phrase matches when receiving emails via SMTP.
+
+### `X-Tag` header
+
+Mailpit will translate a comma-separated `X-Tag` message header into message tags, for example `X-Tag: Tag 1, Tag 2, hostname`
+
+### Word/phrase matches
+
 Basic tag filtering can be set using the `--tag` flag when starting Mailpit. For each tag filter the string is matched to the entire email (including headers and body), and the tag is applied. Messages can have multiple tags, and duplicate tags are ignored.
 
 
-## Example syntax
+#### Example syntax
 
 All tags are specified within a single `--tag <options>` flag. the tag options should be quoted, and within the options each separate tag and match are space-separated.
 
