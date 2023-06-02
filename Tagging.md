@@ -15,13 +15,13 @@ Filtering is simply a string match, meaning the filter you set must match someth
 
 ## Automatically tagging messages
 
-Messages can be automatically tagged via two methods - or via a `X-Tag` email header, or via basic word/phrase matches when receiving emails via SMTP.
+Messages can be automatically tagged via two methods - or via a `X-Tags` email header, or via basic word/phrase matches when receiving emails via SMTP.
 
-### `X-Tag` header
+### `X-Tags` header
 
-Mailpit will translate a comma-separated `X-Tag` message header into message tags, for example: 
+Mailpit will translate a comma-separated `X-Tags` message header into message tags, for example: 
 ```
-X-Tag: Tag 1, Tag 2, hostname
+X-Tags: Tag 1, Tag 2, hostname
 ```
 
 ### Word/phrase matches
